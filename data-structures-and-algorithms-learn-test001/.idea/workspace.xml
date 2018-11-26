@@ -22,14 +22,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TheSumOfTwoNumbers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TheSumOfTwoNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test001/TheSumOfTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-779">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="411">
+              <caret line="108" column="49" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test002/AddTwoNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+              <folding>
+                <element signature="e#3576#3577#0" expanded="true" />
+                <element signature="e#3599#3600#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SinglyLinkedListsToReverseTest001.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collect-data-structures-and-algorithms-test-001/src/main/java/org/github/caishijun/SinglyLinkedListsToReverseTest001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,6 +83,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/collect-data-structures-and-algorithms-test-001/src/main/java/org/github/caishijun/SinglyLinkedListsToReverseTest001.java" />
         <option value="$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test001/TheSumOfTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test002/AddTwoNumbers.java" />
       </list>
     </option>
   </component>
@@ -78,10 +101,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -123,6 +144,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data-structures-and-algorithms-learn-test001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms-learn-test001" type="462c0819:PsiDirectoryNode" />
+              <item name="my-leecode-test-001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms-learn-test001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms-learn-test001" type="462c0819:PsiDirectoryNode" />
+              <item name="my-leecode-test-001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="test001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures-and-algorithms-learn-test001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms-learn-test001" type="462c0819:PsiDirectoryNode" />
+              <item name="my-leecode-test-001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="test002" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +203,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheSumOfTwoNumbers">
+  <component name="RunManager" selected="Application.AddTwoNumbers">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.github.caishijun.simple.test002.AddTwoNumbers" />
+      <module name="my-leecode-test-001" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.github.caishijun.simple.test002.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="SinglyLinkedListsToReverseTest001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.github.caishijun.SinglyLinkedListsToReverseTest001" />
       <module name="collect-data-structures-and-algorithms-test-001" />
@@ -220,9 +281,11 @@
     <list>
       <item itemvalue="Application.SinglyLinkedListsToReverseTest001" />
       <item itemvalue="Application.TheSumOfTwoNumbers" />
+      <item itemvalue="Application.AddTwoNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.TheSumOfTwoNumbers" />
         <item itemvalue="Application.SinglyLinkedListsToReverseTest001" />
       </list>
@@ -252,15 +315,16 @@
       <workItem from="1542895507267" duration="1398000" />
       <workItem from="1543033305599" duration="2899000" />
       <workItem from="1543036216006" duration="433000" />
+      <workItem from="1543208224219" duration="1995000" />
+      <workItem from="1543234597651" duration="3314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15142000" />
+    <option name="totallyTimeSpent" value="20451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -271,19 +335,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11247216" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.56013364" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32962137" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2630458" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19599108" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41870824" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,10 +365,48 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test001/TheSumOfTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="111" column="45" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collect-data-structures-and-algorithms-test-001/src/main/java/org/github/caishijun/SinglyLinkedListsToReverseTest001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test002/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#3576#3577#0" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test001/TheSumOfTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test001/TheSumOfTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2247">
@@ -381,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collect-data-structures-and-algorithms-test-001/src/main/java/org/github/caishijun/SinglyLinkedListsToReverseTest001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -395,12 +490,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/collect-data-structures-and-algorithms-test-001/src/main/java/org/github/caishijun/SinglyLinkedListsToReverseTest001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test001/TheSumOfTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-779">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="411">
+          <caret line="108" column="49" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-leecode-test-001/src/main/java/org/github/caishijun/simple/test002/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+          <folding>
+            <element signature="e#3576#3577#0" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
           </folding>
         </state>
       </provider>
