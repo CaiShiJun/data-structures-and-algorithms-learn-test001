@@ -23,7 +23,9 @@ package org.github.caishijun.simple.test003;
      请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
  */
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
@@ -79,6 +81,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         return true;
     }
 
+
     //方法二：滑动窗口
     public static int lengthOfLongestSubstringOfficialAnswer_002(String s) {
         int n = s.length();
@@ -97,8 +100,23 @@ public class LongestSubstringWithoutRepeatingCharacters {
         return ans;
     }
 
+
     //方法三：优化的滑动窗口
     public static int lengthOfLongestSubstringOfficialAnswer_003(String s) {
+        int n = s.length(), ans = 0;
+        Map<Character, Integer> map = new HashMap<>(); // current index of character
+        // try to extend the range [i, j]
+        for (int j = 0, i = 0; j < n; j++) {
+            if (map.containsKey(s.charAt(j))) {
+                i = Math.max(map.get(s.charAt(j)), i);
+            }
+            ans = Math.max(ans, j - i + 1);
+            map.put(s.charAt(j), j + 1);
+        }
+        return ans;
+    }
+    //Java（假设字符集为 ASCII 128）
+    public int lengthOfLongestSubstringOfficialAnswer_004(String s) {
         int n = s.length(), ans = 0;
         int[] index = new int[128]; // current index of character
         // try to extend the range [i, j]
@@ -109,6 +127,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         }
         return ans;
     }
+
 
     public static void main(String[] args) {
         String st1 = "abcabcbb";
